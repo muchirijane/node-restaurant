@@ -3,127 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NODE RESTAURANT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co/QCd3RCd/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/3kD974b/favicon-32x32.png" > 
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/nLtz4cb/favicon-16x16.png"> 
+    <title> NODE HOME CHEF</title>
     <style>
+        *,
+        *::before,
+        *::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+        }
+
+        :root{
+            --dark-grey: #474747;
+            --light-grey: #606060;
+            --light-orange: #FF8D2D;
+            --dark-light-orange: #EE6D01;
+            --dark-orange: #D66203;
+            --color-white: #FEFCFC;
+            --title-family: 'Megrim', cursive;
+            --gradient: linear-gradient(to bottom right, var(--light-orange), var(--dark-light-orange));
+        }
+
+        body{
+            padding: 5rem 10rem;
+            /* font-family: 'Megrim', cursive; */
+            font-family: 'Nunito', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            min-height: 100vh;
+            font-size: 1.8rem;
+            background-image: linear-gradient(to bottom right, var(--light-orange), var(--dark-light-orange));
+            color: var(--light-grey);
+        }
+        .container{
+            width: 130rem;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 6rem;
+            font-weight: 300;
+            font-family: var(--title-family);
+            position: relative;
+            color: var(--color-white);
+            text-align: center;
+            letter-spacing: .5rem;
+            
+        }
+        h1::before{
+            content: '';
+            position: absolute;
+            display: block;
+            top: 50%;
+            left: 32%;
+            height: 7rem;
+            width: 40%;
+            background-image: linear-gradient(to bottom right, var(--light-orange), var(--dark-light-orange));
+            box-shadow: 0px 30px 80px rgba(214, 98, 3, 0.73);
+            z-index: -1;
+            transform: skewY(3deg);
+        }
+
+        .card-container{
+            margin-top:10rem;
+        }
+        .card{
+            background-color: var(--color-white);
+            display: flex;
+            margin-bottom: 7rem;
+            transform: skewX(-15deg);
+            overflow: hidden;
+            box-shadow: 0px 40px 30px rgba(118, 54, 1, 0.22);
+            transition: transform .2s ease-in;
+        }
+        .card:hover{
+            box-shadow: 0px 50px 30px rgba(118, 54, 1, 0.28);
+            transform: scale(1.06) skewX(-15deg);
+            border: none;
+        }
+        .card__emoji{
+            font-size: 5rem;
+            padding: 1rem 2.5rem;
+            letter-spacing: -3rem;
+        }
+        .card__title-box{
+            background-image: var(--gradient);
+            transform: skewX(-15deg);
+            margin: 0 0 0 3rem;
+        }
+        .card__title{
+            color: var(--color-white);
+            font-family: var(--title-family);
+            font-weight: 300;
+            padding: 3rem 4rem;
+            font-size: 3.2rem;
+            transform: skewX(15deg);
+        }
+        .card__detail{
+            display: flex;
+            padding: 0rem 3rem;
+            justify-content: space-between;
+            transform: skewX(-15deg);
+
+        }
+        .card__detail-content{
+            border-right: 2px solid #D3D3D3;
+            font-size: 2.4rem;
+            padding: 0 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card__detail-content:last-child{
+            padding-right: 0;
+            border-right: none;
+        }
+        .card__detail-text{
+            transform: skewX(15deg);
+        }
+        .card__detail-type{
+            font-size: 3rem;
+            background-image: var(--gradient);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .card__detail-price{
+            font-size: 3.6rem;
+            font-family: var(--title-family);
+            font-weight: 300;
+        }
+        .card__link:link,
+        .card__link:visited{
+            background-color: var(--light-orange);
+            color: var(--color-white);
+            font-size: 2.4rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            transform: translateX(10%) skewX(-15deg);
+            transition: all .2s ease-in;
+            
+        }
+        .card__link:hover{
+            background-color: var(--dark-light-orange);
+        }
+        .card__link-text{
+            transform: skewX(15deg);
+        }
 
     </style>
 </head>
 <body>
     <main class="container">
-        <div class="restaurant__name-box">
-            <h1 class="restaurant__name"> 🌮 Node restrarant 🍲</h1>
+        
+        <div class="restaurant-name-box">
+            <h1 class="restaurant-name"> 🌮 Node restrarant 🍲</h1>
         </div>
-        <figure class="card">
-            <div class="card__emoji">🍝 🍝 </div>
-            <div class="card__title-box">
-                <h2 class="card__title">Tomato Rigatoni</h2>
-            </div>
-            <div class="card__detail">
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+        
+        <div class="card-container">
+            <figure class="card">
+                <div class="card__emoji">🍝 🍝 </div>
+                <div class="card__title-box">
+                  <h2 class="card__title">Tomato Rigatoni</h2>
+                </div>
+                <div class="card__detail">
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-time">⏲️ : 30 - 40 min</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-price"> $34.00</h5>
+                    </div>
+                </div>
+                <a href="#" class="card__link">
+                    <p class="card__link-text"> More &rarr;</p>
+                </a>
+    
+            </figure>
+    
+            <figure class="card">
+                <div class="card__emoji">🍗 🍗  </div>
+                <div class="card__title-box">
+                    <h2 class="card__title">Koren Fried Chicken with rice</h2>
                 </div>
 
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-time">⏲️ : 30 - 40 min</h5>
+                <div class="card__detail">
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-time">⏲️ : 25 - 40 min</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-price"> $30.00</h5>
+                    </div>
                 </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-price"> $34.00</h5>
+                
+                <a href="#" class="card__link">
+                    <p class="card__link-text"> More &rarr;</p>
+                </a>
+    
+            </figure>
+    
+            <figure class="card">
+                <div class="card__emoji">🥗 🥗  </div>
+                <div class="card__title-box">
+                    <h2 class="card__title">Spring spinach salad</h2>
                 </div>
-            </div>
-            <a href="#" class="card__link">
-                <p class="card__link-text"> More &rarr;</p>
-            </a>
-
-        </figure>
-
-        <figure class="card">
-            <div class="card__emoji">🍗 🍗  </div>
-            <div class="card__title-box">
-                <h2 class="card-__itle">Koren Fried Chicken</h2>
-            </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-time">⏲️ : 25 - 40 min</h5>
+                <div class="card__detail">
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-time">⏲️ : 5 - 10 min</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-price"> $12.00</h5>
+                    </div>
                 </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-price"> $30.00</h5>
+                <a href="#" class="card__link">
+                    <p class="card__link-text"> More &rarr;</p>
+                </a>
+    
+            </figure>
+    
+            <figure class="card">
+                <div class="card__emoji">🥙 🥙 </div>
+                <div class="card__title-box">
+                    <h2 class="card__title">Fontina Flatbread</h2>
                 </div>
-            </div>
-            <a href="#" class="card__link">
-                <p class="card__link-text"> More &rarr;</p>
-            </a>
-
-        </figure>
-
-        <figure class="card">
-            <div class="card__emoji">🥗 🥗  </div>
-            <div class="card__title-box">
-                <h2 class="card__title">Spring spinach salad</h2>
-            </div>
-            <div class="card__detail">
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+                <div class="card__detail">
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-time">⏲️ :35 - 40 min</h5>
+                    </div>
+    
+                    <div class="card__detail-content">
+                        <h5 class="card__detail-text card__detail-price"> $24.00</h5>
+                    </div>
                 </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-time">⏲️ : 5 - 10 min</h5>
+                <a href="#" class="card__link">
+                    <p class="card__link-text"> More &rarr;</p>
+                </a>
+    
+            </figure>
+    
+            <figure class="card">
+                <div class="card__emoji">🥩 🥩 </div>
+                <div class="card__title-box">
+                    <h2 class="card__title">Garlic Crusted Filet Mignon</h2>
                 </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-price"> $12.00</h5>
-                </div>
-            </div>
-            <a href="#" class="card__link">
-                <p class="card__link-text"> More &rarr;</p>
-            </a>
-
-        </figure>
-
-        <figure class="card">
-            <div class="card__emoji">🥙 🥙 </div>
-            <div class="card__title-box">
-                <h2 class="card__title">Fontina Flatbread</h2>
-            </div>
-            <div class="card__detail">
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-type">vegetarian</h5>
-                </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-time">⏲️ :35 - 40 min</h5>
-                </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-price"> $24.00</h5>
-                </div>
-            </div>
-            <a href="#" class="card__link">
-                <p class="card__link-text"> More &rarr;</p>
-            </a>
-
-        </figure>
-
-        <figure class="card">
-            <div class="card__emoji">🥩 🥩 </div>
-            <div class="card__title-box">
-                <h2 class="card__title">Crusted Filet Mignon</h2>
-            </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-time">⏲️ : 35 - 40 min</h5>
-                </div>
-
-                <div class="card__detail-content">
-                    <h5 class="card__detail-text card__detail-price"> $34.00</h5>
-                </div>
-            </div>
-            <a href="#" class="card__link">
-                <p class="card__link-text"> More &rarr;</p>
-            </a>
-
-        </figure>
+    
+                    <div class="card__detail">
+                        <div class="card__detail-content">
+                            <h5 class="card__detail-text card__detail-time">⏲️ : 35 - 40 min</h5>
+                        </div>
+        
+                        <div class="card__detail-content">
+                            <h5 class="card__detail-text card__detail-price"> $34.00</h5>
+                        </div>
+                    </div>
+                
+                <a href="#" class="card__link">
+                    <p class="card__link-text"> More &rarr;</p>
+                </a>
+    
+            </figure>
+        </div>
     </main>
 </body>
 </html>
