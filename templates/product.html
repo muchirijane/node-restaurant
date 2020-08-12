@@ -78,6 +78,7 @@
             margin: 0 auto;
             margin-top: 10rem;
             position: relative;
+            border-radius: 2rem;
         }
         .product__top{
             position: absolute;
@@ -86,7 +87,8 @@
             width: 100%;
             justify-content: space-between;
         }
-        .product__top__backNav{
+        .product__top-backNav:link,
+        .product__top-backNav:visited{
             background-color: var(--color-white);
             padding: .5rem 2rem;
             border-radius: 1.6rem;
@@ -94,6 +96,15 @@
             border-radius: 2rem;
             text-decoration: none;
             color: var(--dark-grey);
+            box-shadow: 0px 10px 10px rgba(22, 17, 13, 0.1);
+            transition: all .2s ease-in;
+        }
+        .product__top-backNav:hover{
+            box-shadow: 0px 20px 10px rgba(118, 54, 1, 0.15);
+            transform: scale(1.02);
+        }
+        .product__top-backNav:active{
+            transform: translateY(1rem);
         }
         .product__veg{
             height: 13rem;
@@ -211,7 +222,20 @@
             text-decoration: none;
             color: var(--color-white);
             background-image: var(--gradient);
-            padding: 3rem 6rem;
+            /* background-color: var(--light-orange); */
+            padding: 3rem 8rem;
+            display: inline-block;
+            margin: 4rem 5rem;
+            border-radius: 5rem;
+            box-shadow: 0px 20px 10px rgba(118, 54, 1, 0.15);
+            transition: all .2s ease-in;
+        }
+        .product__cta:hover{
+            box-shadow: 0px 30px 20px rgba(118, 54, 1, 0.2);
+            transform: scale(1.03);
+        }
+        .product__cta:active{
+            transform: translateY(2rem);
         }
     </style>
 </head>
@@ -221,13 +245,13 @@
             <h1 class="restaurant-name"> 🌮 Node restrarant 🍲</h1>
         </div>
 
-        <div <h5ss="product__card">
+        <div class ="product__card">
             <div class="product__top">
-                <a href="#"class="product__top__backNav">
+                <a href="#"class="product__top-backNav">
                   &ShortLeftArrow; Back
                 </a>
                 <div class="product__veg">
-                  <h5 class="product__veg-title"> vegetarian!</h5>>
+                  <h5 class="product__veg-title"> vegetarian!</h5>
                 </div>
             </div>
             <figure class="product__emoji-box">
@@ -301,10 +325,9 @@
                 </p>
 
             </div>
-            <a href="#" class="product__cta">
-                <p class="product__cta-text">
-                    Buy Tomato Bigatoni ($ 34.00)
-                </p>
+            <a href="#t" class="product__cta">
+                    Buy Tomato Bigatoni   $34.00
+            
             </a>
         </div>
     </main>    
