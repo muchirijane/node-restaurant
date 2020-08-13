@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "productName": "Tomato Rigatoni",
+        "image": "🍝",
+        "Chef": "Chef David Padilla",
+        "time": "25 - 40 min",
+        "servers": "2 servers",
+        "price" : "$ 34.00",
+        "vegetarian": true,
+        "titleOne": "1) Prepare the Ingredients",
+        "stepOne": "Cut ciabatta into ½ cubes. Stem, seed, remove ribs, and slice red bell pepper into ¼ strips. Cut mushrooms into ¼ slices. Mince garlic.",
+        "titleTwo": "2) Make the Grilled Cheese Croutons",
+        "stepTwo": "Place a medium non-stick pan over medium heat. Add 1 tsp. olive oil and ciabatta cubes to hot pan. Stir occasionally until lightly brown, 3-4 minutes. Add mozzarella, half the Parmesan (reserve remaining for garnish), and half the garlic (reserve remaining for sauce). Stir constantly until cheese melts, 30-60 seconds.",
+        "titleThree" : " 3) Cook the Pasta",
+        "stepThree" : "Once water is boiling, add pasta and cook until al dente, 11-13 minutes. Reserve ¼ cup pasta cooking water. Drain pasta in a colander and set aside. Reserve pot; no need to wipe clean. While pasta boils, cook vegetables.",
+        "titleFour": "4) Cook the Vegetables",
+        "stepFour": "Return pan used to make croutons to medium-high heat. Add 1 tsp. olive oil and red bell pepper to hot pan. Cook undisturbed until lightly charred, 2-3 minutes. Add mushrooms, ¼ tsp. salt, and a pinch of pepper. Stir occasionally until tender, 3-4 minutes and remove it from burner.",
+        "titleFive": "5) Make Sauce and Finish Dish",
+        "stepFive": "Stir in cream, reserved pasta cooking water, tomato paste, and vegetable base until combined.Stir in pasta, vegetables, ¼ tsp. salt, and a pinch of pepper. Plate dish as pictured on front of card, topping pasta with croutons and garnishing with remaining Parmesan. Bon appétit!"
+
+    },
+
+    {
+        "id": 1,
+        "productName": "Koren Fried Chicken with rice",
+        "image": "🍗",
+        "Chef": "Chef Jimmy Madla",
+        "time": "25 - 40 min",
+        "servers": "2 servers",
+        "price" : "$ 30.00",
+        "vegetarian": false,
+        "titleOne": "1) Prepare the Ingredients",
+        "stepOne": "Trim and thinly slice green onions. On a separate cutting board, pat chicken dry and slice each breast lengthwise into four equal strips, about ¾ wide. Season all over with a pinch of pepper.",
+        "titleTwo": "2) Make the Edamame Rice",
+        "stepTwo": "Bring a medium pot with rice and 1½ cups water to a boil. Reduce to a simmer, cover, and cook, 10 minutes. Simmering liquids will still be bubbling slightly. Uncover, and stir in edamame and half the green onions. Cover again, and cook until rice is tender, 8-10 minutes. Remove from burner. Stir in soy sauce. While rice cooks, batter chicken.",
+        "titleThree" : " 3) Cook the Pasta",
+        "stepThree" : "Place a medium non-stick pan over medium heat and add canola oil. Heat oil, 5 minutes. While oil heats, combine tempura mix, ¼ cup cold water, and a pinch of pepper in a mixing bowl until a batter forms the consistency of thin pancake batter. ",
+        "titleFour": "4) Fry the Chicken",
+        "stepFour": "Line a plate with a paper towel. Test oil temperature by adding a pinch of batter to it. It should sizzle gently. If it browns immediately, turn heat down and let oil cool. If it doesn't brown, increase heat. Working in batches if necessary, lay chicken strips in hot oil and flip occasionally until crispy.",
+        "titleFive": "5) Toss Chicken and Finish Dish",
+        "stepFive": "Place cooked chicken in another mixing bowl and toss with sweet chili sauce, reserved green onions, and red pepper flakes (to taste). Plate dish as pictured on front of card, garnishing chicken with sesame seeds. Bon appétit!"
+
+    },
+
+    {
+        "id": 2,
+        "productName": "Spring spinach salad",
+        "image": "🥗",
+        "Chef": "Chef Rachel Post",
+        "time": "5 - 10 min",
+        "servers": "2 servers",
+        "price" : "$ 15.00",
+        "vegetarian": true,
+        "titleOne": "1) Make the Salad",
+        "stepOne": "Halve tomatoes. Mix lemon juice, basil pesto aioli, and 2 Tbsp. water in a mixing bowl until completely combined. Place peas in a microwave-safe bowl and microwave until warmed through, 30 seconds. Add spinach and Parmesan to bowl with lemon-basil dressing and toss or gently stir to combine. Garnish with peas, tomatoes, and almonds. Bon appétit!"
+        
+
+    },
+
+    {
+        "id": 3,
+        "productName": "Fontina Flatbread",
+        "image": "🥙",
+        "Chef": "Chef Nigel Palmer",
+        "time": "35 - 45 min",
+        "servers": "2 servers",
+        "price" : "$ 24.00",
+        "vegetarian": true,
+        "titleOne": "1) Prepare the Ingredients",
+        "stepOne": "Halve and peel onion. Slice halves into thin strips. Slice fontina into thin strips. Stem thyme. Halve tomatoes.",
+        "titleTwo": "2) Caramelize the Onion",
+        "stepTwo": "Place a medium pan over high heat. Add 2 tsp. olive oil and onion to hot pan. Stir constantly, 3 minutes. Reduce heat to medium. Stir occasionally until onion is golden brown and tender, 6-9 minutes. Stir in sherry wine and ¼ tsp. pepper. Cook until liquid is completely evaporated, 2-3 minutes. Remove from burner.",
+        "titleThree" : "3) Make the Fontina Sauce",
+        "stepThree" : "Bring a small pot with ¼ cup water to a boil over medium heat. Once boiling, add cream cheese and stir until smooth. Remove from burner. Whisk or vigorously stir in half the fontina (reserve remaining for flatbread topping) until melted and combined. Season with a pinch of pepper.",
+        "titleFour": "4) Assemble and Bake Flatbreads",
+        "stepFour": "Place flatbreads on a clean work surface. Spread fontina sauce evenly on flatbreads and top with caramelized onion and remaining fontina. Place flatbreads directly on oven rack in hot oven, with prepared baking sheet on rack below to collect any drips. Bake until cheese bubbles, 12-14 minutes. Remove from oven and sprinkle flatbreads with thyme.",
+        "titleFive": "5) Finish the Dish",
+        "stepFive": "Combine arugula, tomatoes, ½ tsp. olive oil, and a pinch of salt and pepper in a mixing bowl. Plate dish as pictured on front of card, topping flatbreads with arugula and tomatoes. Bon appétit!"
+
+    },
+
+    {
+        "id": 4,
+        "productName": "Garlic Crusted Filet Mignon",
+        "image": "🥩",
+        "Chef": "Chef David Padilla",
+        "time": "35 - 45 min",
+        "servers": "2 servers",
+        "price" : "$ 34.00",
+        "vegetarian": false,
+        "titleOne": "1) Prepare the Ingredients",
+        "stepOne": "Cut ciabatta into ½ cubes. Stem, seed, remove ribs, and slice red bell pepper into ¼ strips. Cut mushrooms into ¼ slices. Mince garlic.",
+        "titleTwo": "2) Make the Grilled Cheese Croutons",
+        "stepTwo": "Place a medium non-stick pan over medium heat. Add 1 tsp. olive oil and ciabatta cubes to hot pan. Stir occasionally until lightly brown, 3-4 minutes. Add mozzarella, half the Parmesan (reserve remaining for garnish), and half the garlic (reserve remaining for sauce). Stir constantly until cheese melts, 30-60 seconds.",
+        "titleThree" : " 3) Cook the Pasta",
+        "stepThree" : "Once water is boiling, add pasta and cook until al dente, 11-13 minutes. Reserve ¼ cup pasta cooking water. Drain pasta in a colander and set aside. Reserve pot; no need to wipe clean. While pasta boils, cook vegetables.",
+        "titleFour": "4) Cook the Vegetables",
+        "stepFour": "Return pan used to make croutons to medium-high heat. Add 1 tsp. olive oil and red bell pepper to hot pan. Cook undisturbed until lightly charred, 2-3 minutes. Add mushrooms, ¼ tsp. salt, and a pinch of pepper. Stir occasionally until tender, 3-4 minutes and remove it from burner.",
+        "titleFive": "5) Make Sauce and Finish Dish",
+        "stepFive": "Stir in cream, reserved pasta cooking water, tomato paste, and vegetable base until combined.Stir in pasta, vegetables, ¼ tsp. salt, and a pinch of pepper. Plate dish as pictured on front of card, topping pasta with croutons and garnishing with remaining Parmesan. Bon appétit!"
+
+    }
+]
