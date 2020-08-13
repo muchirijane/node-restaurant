@@ -1,0 +1,23 @@
+<figure class="card">
+    <div class="card__emoji">{%IMAGE%} {%IMAGE%} </div>
+    <div class="card__title-box">
+      <h2 class="card__title">{%PRODUCT__NAME%}</h2>
+    </div>
+    <div class="card__detail">
+        <div class="card__detail-content {%NOT__VEGETARIAN%}">
+            <h5 class="card__detail-text card__detail-type">vegetarian</h5>
+        </div>
+
+        <div class="card__detail-content">
+            <h5 class="card__detail-text card__detail-time">⏲️ : {%TIME%}</h5>
+        </div>
+
+        <div class="card__detail-content">
+            <h5 class="card__detail-text card__detail-price"> {%PRICE%}</h5>
+        </div>
+    </div>
+    <a href="/product?id={%ID%}" class="card__link">
+        <p class="card__link-text"> More &rarr;</p>
+    </a>
+
+</figure>
