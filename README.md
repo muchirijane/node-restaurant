@@ -25,6 +25,8 @@ It was a good way to learn some of the basics on how to create a simple API with
 
 Ps: Because it uses node for the backend, the github link won't work. You will have to use a termial to view the site.
 
+Check out my [notes](https://github.com/muchirijane/node-restaurant/blob/master/notes.md) to see how I build it.
+
 #### Technologies
 
 - HTML
