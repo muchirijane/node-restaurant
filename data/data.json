@@ -45,16 +45,23 @@
 
     {
         "id": 2,
-        "productName": "Spring spinach salad",
+        "productName": "Vegan Caesar salad",
         "image": "🥗",
         "Chef": "Chef Rachel Post",
-        "time": "5 - 10 min",
+        "time": "15 - 20 min",
         "servers": "2 servers",
-        "price" : "$ 15.00",
+        "price" : "$ 25.00",
         "vegetarian": true,
-        "titleOne": "1) Make the Salad",
-        "stepOne": "Halve tomatoes. Mix lemon juice, basil pesto aioli, and 2 Tbsp. water in a mixing bowl until completely combined. Place peas in a microwave-safe bowl and microwave until warmed through, 30 seconds. Add spinach and Parmesan to bowl with lemon-basil dressing and toss or gently stir to combine. Garnish with peas, tomatoes, and almonds. Bon appétit!"
-        
+        "titleOne": "1) Start the tempeh",
+        "stepOne": "Crumble or cut the tempeh into ½-inch pieces. In a large frying pan, combine the tempeh and 1 cup (2 cups) water and bring to a boil. Cover and cook over high heat, stirring occasionally, until softened, 6 to 8 minutes. Drain the tempeh, transfer to a plate, and pat dry with a paper towel; season with salt and generously with pepper. Wipe the pan dry. While the tempeh is cooking, prepare the salad.",
+        "titleTwo": "2) Make the salad",
+        "stepTwo": "Trim the root end from the romaine heart; coarsely chop the leaves. Cut the tomatoes in half. Thinly slice the celery. In a large bowl, combine the kale with 1 teaspoon (2 tsp) vegan Caesar dressing, season with salt, and gently massage the leaves. Add the romaine, tomatoes, celery, and half the remaining dressing and toss to coat (set aside the remaining dressing for serving). Season to taste with salt and pepper.",
+        "titleThree" : " 3) Crisp the tempeh croutons; finish the salad",
+        "stepThree" : "In the same pan used to soften the tempeh, warm 1 to 2 tablespoons oil over medium-high heat until hot but not smoking. Add the tempeh and cook, stirring occasionally, until golden brown and crisp, 5 to 7 minutes. Transfer to a paper-towel-lined plate. Season to taste with salt and pepper. Add the tempeh croutons to the salad and toss to combine. ",
+        "titleFour": "4) Serve",
+        "stepFour": "Transfer the salad to individual bowls and sprinkle with as much vegan “Parmesan” as you like. Serve any remaining “Parmesan” and dressing on the side.",
+        "titleFive": "5) Quick Tip",
+        "stepFive": "You can combine this light meal with white wine or any drink you prefer. When it comes to making the sause you can play with the ingredients and be creative. Bon appétit!"
 
     },
 

@@ -1,9 +1,9 @@
 //importing modules
 const fs = require('fs');
-const path = require('path');
 const http = require('http');
 const url = require('url');
 
+const templateReplace = require('./modules/templateReplace');
 
 const templateOverview = fs.readFileSync(`${__dirname}/templates/template-overview.html`, 'utf8');
 const templateCard = fs.readFileSync(`${__dirname}/templates/template-card.html`, 'utf8');
