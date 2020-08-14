@@ -160,9 +160,7 @@ server.listen(8000, '127.0.0.1', () => {
 #### HTML templates
 + Start by replacing the text you want to add dynamically with data later on.
 ```html
-<div class="product__title-box">
-    <h3 class="product__title">{%PRODUCT__NAME%}</h3> 
-</div>
+
 <div class="product__detail-box">
     <p class="product__detail-text"><span class="product__detail-emoji">👨‍🍳</span>{%CHEF%}</p>
     <p class="product__detail-text"><span class="product__detail-emoji">⏲</span>{%TIME%}</p>
