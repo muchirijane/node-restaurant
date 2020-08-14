@@ -23,7 +23,7 @@ This is an amazing website that I made to practice simple node skills. I was abl
 
 It was a good way to learn some of the basics on how to create a simple API without any framework.
 
-Ps: Because it relays on the backend, the github link won't work. You will have to use a termial to view the site.
+Ps: Because it uses node for the backend, the github link won't work. You will have to use a termial to view the site.
 
 #### Technologies
 
